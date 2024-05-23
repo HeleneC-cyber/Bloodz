@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Bloodz/static/css/main.c8229a88.css",
-    "main.js": "/Bloodz/static/js/main.5b6d338d.js",
+    "main.css": "/Bloodz/static/css/main.e183e947.css",
+    "main.js": "/Bloodz/static/js/main.24802f5b.js",
     "static/js/453.9c44b721.chunk.js": "/Bloodz/static/js/453.9c44b721.chunk.js",
     "static/media/ripples-344_256.gif": "/Bloodz/static/media/ripples-344_256.a09f02a569da1f17ffd0.gif",
     "static/media/flower-transition.svg": "/Bloodz/static/media/flower-transition.6a637b95c961a148078c18ab7dcf23fa.svg",
@@ -18,12 +18,12 @@
     "static/media/more.svg": "/Bloodz/static/media/more.377dfd6fb02526b53541.svg",
     "static/media/venus.svg": "/Bloodz/static/media/venus.1c2c2ac071ba9a09d7262c35fc6768d3.svg",
     "static/media/less.svg": "/Bloodz/static/media/less.894a7f2f747265b3b429.svg",
-    "main.c8229a88.css.map": "/Bloodz/static/css/main.c8229a88.css.map",
-    "main.5b6d338d.js.map": "/Bloodz/static/js/main.5b6d338d.js.map",
+    "main.e183e947.css.map": "/Bloodz/static/css/main.e183e947.css.map",
+    "main.24802f5b.js.map": "/Bloodz/static/js/main.24802f5b.js.map",
     "453.9c44b721.chunk.js.map": "/Bloodz/static/js/453.9c44b721.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8229a88.css",
-    "static/js/main.5b6d338d.js"
+    "static/css/main.e183e947.css",
+    "static/js/main.24802f5b.js"
   ]
 }
