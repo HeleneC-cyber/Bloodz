@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './App'
 import reportWebVitals from './reportWebVitals';
-import { RouterProvider, createBrowserRouter, createHashRouter } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import BloodGroups from './pages/BloodGroups';
 import HomePage from './pages/HomePage';
 import Error404 from './pages/Error404';
@@ -12,31 +12,18 @@ import About from './pages/About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const router = createHashRouter([{
-  path: '/',
-  element: <HomePage />,
-}, {
-  path: '/presentation',
-  element: <About />
-}, {
-  path: '/groupes-sanguins',
-  element: <BloodGroups />,
-}, {
-  path: '/compatibility',
-  element: <Compatibily />,
-}, {
-  path: '/profil/:id',
-  element: <Profil />
-}, {
-  path: '*',
-  element: <Error404 />,
-},
 
-])
 root.render(
-  // <React.StrictMode>
-    <RouterProvider router={router} />
-  // </React.StrictMode>
+  <HashRouter>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/presentation" element={<About />} />
+      <Route path="/groupes-sanguins" element={<BloodGroups />} />
+      <Route path="/compatibility" element={<Compatibily />} />
+      <Route path="/profil/:id" element={<Profil />} />
+      <Route path="/*" element={<Error404 />} />
+    </Routes>
+  </HashRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
