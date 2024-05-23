@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Bloodz/static/css/main.e183e947.css",
-    "main.js": "/Bloodz/static/js/main.24802f5b.js",
+    "main.css": "/Bloodz/static/css/main.9fa639e8.css",
+    "main.js": "/Bloodz/static/js/main.187d4631.js",
     "static/js/453.9c44b721.chunk.js": "/Bloodz/static/js/453.9c44b721.chunk.js",
     "static/media/ripples-344_256.gif": "/Bloodz/static/media/ripples-344_256.a09f02a569da1f17ffd0.gif",
     "static/media/flower-transition.svg": "/Bloodz/static/media/flower-transition.6a637b95c961a148078c18ab7dcf23fa.svg",
     "static/media/flower-home.svg": "/Bloodz/static/media/flower-home.af5fa49639b5e6944daa1ccc7b0615e6.svg",
     "static/media/flower-right.svg": "/Bloodz/static/media/flower-right.819224a68789d2a68322f9ec5e5de754.svg",
     "static/media/flower-left.svg": "/Bloodz/static/media/flower-left.811dc41d1b4435b7c072.svg",
+    "static/media/logo-xl.svg": "/Bloodz/static/media/logo-xl.c2e8ed61ebc37dc2e1560a9a01c731ae.svg",
     "static/media/cursor.svg": "/Bloodz/static/media/cursor.dcee7b93e9cc2de087d6.svg",
-    "static/media/logo-xl.svg": "/Bloodz/static/media/logo-xl.8a115daa25c7c616efdda045da61df6d.svg",
     "static/media/drops-blood.svg": "/Bloodz/static/media/drops-blood.45e4f70ea7aca59ae36f0e5ddd961e57.svg",
     "static/media/big-eye.svg": "/Bloodz/static/media/big-eye.2818b5724b94d99d2260c609130f2711.svg",
     "index.html": "/Bloodz/index.html",
@@ -18,12 +18,12 @@
     "static/media/more.svg": "/Bloodz/static/media/more.377dfd6fb02526b53541.svg",
     "static/media/venus.svg": "/Bloodz/static/media/venus.1c2c2ac071ba9a09d7262c35fc6768d3.svg",
     "static/media/less.svg": "/Bloodz/static/media/less.894a7f2f747265b3b429.svg",
-    "main.e183e947.css.map": "/Bloodz/static/css/main.e183e947.css.map",
-    "main.24802f5b.js.map": "/Bloodz/static/js/main.24802f5b.js.map",
+    "main.9fa639e8.css.map": "/Bloodz/static/css/main.9fa639e8.css.map",
+    "main.187d4631.js.map": "/Bloodz/static/js/main.187d4631.js.map",
     "453.9c44b721.chunk.js.map": "/Bloodz/static/js/453.9c44b721.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e183e947.css",
-    "static/js/main.24802f5b.js"
+    "static/css/main.9fa639e8.css",
+    "static/js/main.187d4631.js"
   ]
 }
