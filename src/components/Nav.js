@@ -38,7 +38,7 @@ const Nav = () => {
         <ul>
         <li><NavLink to='/presentation'>présentation</NavLink></li>
         <li><NavLink to='/groupes-sanguins'>groupes sanguin</NavLink></li>
-        <li><NavLink to='/compability'>compatibilité</NavLink></li>
+        <li><NavLink to='/compatibility'>compatibilité</NavLink></li>
         <li><NavLink to='/'>se connecter</NavLink></li>
         </ul>
         <IoIosClose className='close-icon' onClick={()=> setDisplayMobileMenu(false)}/>
