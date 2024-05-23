@@ -1,9 +1,13 @@
 import React from 'react';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
 const Error404 = () => {
     return (
         <div>
-            ERROR404
+            <Nav />
+            <h1>ERROR404</h1> 
+            <Footer />
         </div>
     );
 };

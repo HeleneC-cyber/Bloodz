@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter, createHashRouter } from 'react-router-dom';
 import BloodGroups from './pages/BloodGroups';
 import HomePage from './pages/HomePage';
 import Error404 from './pages/Error404';
@@ -12,7 +12,7 @@ import About from './pages/About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const router = createBrowserRouter([{
+const router = createHashRouter([{
   path: '/',
   element: <HomePage />,
 }, {
