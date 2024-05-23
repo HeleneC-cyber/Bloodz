@@ -1,0 +1,14 @@
+@import './base/_reset.scss';
+@import './utils/_variables.scss';
+@import './utils/mixin';
+@import './base/_base.scss';
+@import './components/bloodtable';
+@import './components/card';
+@import './components/animation';
+@import './layout/_nav.scss';
+@import './layout/_footer.scss';
+@import './pages/blood-groups';
+@import './pages/compatibility';
+@import './pages/profil';
+@import './pages/about';
+@import './pages/homepage';

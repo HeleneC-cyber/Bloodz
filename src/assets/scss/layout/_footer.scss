@@ -1,0 +1,24 @@
+footer {
+    position: relative;
+    background-color: $color-004;
+    padding: 55px 0;
+    img {
+        display: none;
+        @include min($xxxl) {
+            display: flex;
+            content: '';
+            position: absolute;
+            width: 230px;
+            height: 390px;
+            bottom: 0;
+            right: 0;
+            transform: translateX(-50px) translateY(-320px);
+        }
+        
+    }
+    h5 {
+        text-align: center;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}

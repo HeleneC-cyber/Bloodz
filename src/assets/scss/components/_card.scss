@@ -1,0 +1,93 @@
+.card-profil {
+    width: 190px;
+    height: 190px;
+    margin: 0 auto;
+    border: solid 5px $color-002;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+    transition: ease-in-out all 0.2s;
+
+    &:hover{
+        border-color: $color-border;
+        .overlay-card{
+            opacity: 1;
+        }
+    }
+
+    .photo {
+        position: absolute;
+        width: 220px;
+        height: 220px;
+        transform: translateX(-35px) translateY(-10px);
+        z-index: -2;
+    }
+
+    .drop {
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+
+    a {
+        position: absolute;
+        inset: 0;
+    }
+    .overlay-card {
+        opacity: 0;
+        transition: ease-in-out all 0.2s;
+        background-color: $color-006;
+        padding-bottom: 40px;
+        p {
+            text-align: center;
+            padding: 0 0;
+
+            &:nth-of-type(1) {
+                font-size: 20px;
+                font-weight: bold;
+                color: $color-002;
+                padding-top: 10px;
+                @include min($sm) {
+                    font-size: 30px;
+                }@include min($lg) {
+                    font-size: 40px;
+                }
+                
+            }
+
+            &:nth-of-type(2) {
+                font-family: $font-002;
+                font-size: 30px;
+                @include min($sm) {
+                    font-size: 35px;
+                }
+                @include min($lg) {
+                    font-size: 40px;
+                }
+            }
+
+            &:nth-of-type(3) {
+                font-size: 16px;
+                font-style: italic;
+                @include min($lg) {
+                    font-size: 20px;
+                }
+            }
+
+        }
+        .gender {
+        display: block;
+        margin: 0 auto;
+        padding-top:10px ;
+        width: 16px;
+        @include min($sm) {
+            width: 22px;
+        }
+        @include min($lg) {
+            width: 25px;
+        }
+        }
+    }
+}

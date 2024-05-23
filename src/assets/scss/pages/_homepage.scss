@@ -1,0 +1,83 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient($color-005, $color-004, $color-003, $color-002);
+    position: relative;
+    overflow: hidden;
+
+    .logo-hero {
+        margin-top: 20vh;
+        max-width: 35%;
+        width: 400px;
+
+        @include min($sm) {
+            margin-top: 10vh;
+        }
+
+        @include min($lg) {
+            margin-top: 8vh;
+        }
+
+    }
+
+    h1 {
+        text-align: center;
+        margin: 3vh auto 0;
+        max-width: 90%;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+
+        &:nth-of-type(2),
+        &:nth-of-type(3) {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 50%;
+            width: 550px;
+
+            @include min($md) {
+                top: 35%;
+            }
+
+            @include min($lg) {
+                top: 35%;
+                max-width: 35%;
+            }
+
+            @include min($xxl) {
+                top: 30%;
+                max-width: 35%;
+            }
+        }
+
+    }
+
+    .big-eye {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 40%;
+        width: 370px;
+        border-radius: 124px 124px 0 0;
+
+        &:hover {
+            box-shadow: 0 0 3em $color-007;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        @include min($xl) {}
+    }
+
+
+
+}

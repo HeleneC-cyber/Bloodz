@@ -1,0 +1,57 @@
+.blood-groups-description .container {
+    padding-bottom: 200px;
+    @include min($lg) {
+        padding-bottom: 330px;
+    }
+    >a {
+        display: block;
+        width: fit-content;
+        margin-right: 0;
+        margin-left: auto;
+        font-style: italic;
+        color: $color-001;
+        margin-top: 20px;
+    }
+
+}
+
+.blood-groups-recap {
+    position: relative;
+    background-color: $color-005;
+    padding-top: 150px;
+    @include min($xl) {
+        padding-top: 220px;
+    }
+
+    img {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%) translateY(-50%);
+        width: 795px;
+        max-width: 80%;
+        @include min($md) {
+            max-width: 50%;
+        }
+    }
+.table-wrapper {
+    overflow-x: scroll ;
+    @include min($xxxl) {
+        overflow-x: visible ;
+    }
+}
+    h4 {
+        text-align: center;
+        color: $color-white;
+    }
+
+    .eye {
+        display: flex;
+        justify-content: center;
+        padding: 30px 0 100px;
+        & svg:hover{
+            border-radius: 100px;
+            box-shadow: 0 0 2em $color-001;  
+          }
+    }
+}

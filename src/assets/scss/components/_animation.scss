@@ -1,0 +1,85 @@
+.animation {
+    opacity: 0;
+    animation-name: anim-opac;
+    animation: anim-opac ease-in-out 0.6s forwards;
+}
+    @keyframes anim-opac {
+        0% {
+            opacity: 0;
+        }
+        40% {
+            opacity: 0.3;
+            
+        }
+        50% {
+            opacity: 0.6;
+            
+        }
+        80% {
+            opacity: 0.8;
+            
+        }
+        100% {
+            opacity: 1;
+            
+        }
+    }
+
+.animation-hero {
+    opacity: 0;
+    animation-name: anim-opacity;
+    animation-delay: 0.5s;
+    animation: anim-opacity ease-in-out 2s forwards;
+}
+    @keyframes anim-opacity {
+        0% {
+            opacity: 0;
+        }
+        40% {
+            opacity: 0;
+            
+        }
+        50% {
+            opacity: 0.3;
+            
+        }
+        100% {
+            opacity: 1;
+            
+        }
+    }
+    .animation-hero-late {
+        opacity: 0;
+        animation-name: anim-opacity-late;
+        animation: anim-opacity-late ease-in-out 2.5s forwards;
+    }
+        @keyframes anim-opacity-late{
+            0% {
+                opacity: 0;
+            }
+            30% {
+                opacity: 0.1;
+                
+            }
+            100% {
+                opacity: 1;
+                
+            }
+        }   
+
+
+.big-eye{
+bottom: -50%;     
+        animation-name: mover;
+        animation: mover ease-in-out 2.5s forwards;
+                }
+                @keyframes mover{
+                    0% {
+                        bottom: -50%;
+                    }
+
+                    100% {
+                        bottom: 0;
+                        
+                    }
+                }

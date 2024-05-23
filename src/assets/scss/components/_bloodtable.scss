@@ -1,0 +1,45 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid $color-004;
+    font-size: 16px;
+    @include min($xxl) {
+        font-size: 20px;
+    }
+    thead{
+      background-color: $color-003;
+      color: $color-white;
+      font-weight: bold;
+      th{
+        border: 2px solid $color-004;
+        padding: 30px 100px;
+    }
+    }
+tr {
+    background-color: $color-white;
+    position: relative;
+    &:first-child td:first-child::before {
+        content: '';
+        position: absolute;
+        background-image: url(../../images/more.svg);
+        width: 65px;
+        height: 65px;
+        background-size: contain;
+        left: -100px;
+    }
+    &:last-child td:first-child::after {
+        content: '';
+        position: absolute;
+        background-image: url(../../images/less.svg);
+        width: 65px;
+        height: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        left: -100px;
+    }
+    td{
+        border: 2px solid $color-004;
+        padding: 30px;
+    }
+}
+
+  }
