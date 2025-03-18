@@ -25,13 +25,13 @@
 - Adobe Xd (réalisation du design)
 <br><br>
 
-## 💡 Compétences développées
+## 🌱 Compétences développées
 - **Conception** d'interfaces utilisateur en React.
 - **Consommation d'API REST** pour récupérer des données.
 - **Structuration** d'un projet web responsive en autonomie.
 <br><br>
 
-![Séparateur coloré](./images/Readme-separation.png)
+![Séparateur coloré](./public/readme/séparateur.png)
 
 ## 📂 Structure
 📁 Bloodz<br>
@@ -46,7 +46,7 @@
 │── README.md
 <br><br>
 
-![Séparateur coloré](./images/Readme-separation.png)
+![Séparateur coloré](./public/readme/séparateur.png)
 
 ## 💻 Démonstration en ligne
 👉 Voir le site en ligne [ICI](https://helenec-cyber.github.io/Bloodz/)
@@ -57,7 +57,7 @@
 - Ce projet, bien que non fonctionnel et simpliste, fait appel à une API gratuite (dummyjson.com/users) pour générer des utilisateurs fictifs sur le site. J'ai également pu expérimenter la logique des fonctions de filtrage pour affiner les résultats d'affichage.
 <br><br>
 
-![Séparateur coloré](./images/Readme-separation.png)
+![Séparateur coloré](./public/readme/séparateur.png)
 
 ## 📬 Contact
 Pour toute question ou suggestion, n'hésitez pas à me contacter sur [LinkedIn](https://www.linkedin.com/in/helene-canovas-48710b141/)
